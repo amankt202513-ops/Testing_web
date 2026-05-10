@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +7,7 @@
    
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anta&family=Bebas+Neue&family=Bitcount+Prop+Double:wght@100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Boldonse&family=Orbitron:wght@400..900&family=Rubik+Mono+One&family=Saira+Stencil+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Bebas+Neue&family=Bitcount+Prop+Double:wght@100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bol[...]
 <style>
     body{
     background-color: black;
@@ -243,12 +242,26 @@
     font-family: "Boldonse", system-ui;
     font-size: 26px;
     display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
-    
-    
+    gap: 10px;
+    overflow: hidden;
 }
+
+#box4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+#box4 img:hover {
+    transform: scale(1.05);
+}
+
 #box5{
    grid-column: 2 /span 2;
    grid-row: 3 /span 1;
@@ -487,7 +500,7 @@
         <div class="textbody">
           
           
-     <p class="firstset"><b> FULL STACK DEVELOPEMENT  <span>&#8728</span> UI DEVELOPEMENT <span>&#8728</span> FRONTEND DEVELOPEMENT  <span>&#8728</span>  BACKEND DEVELOPEMENT <span>&#8728</span>WEB DESIGN  </b></p>
+     <p class="firstset"><b> FULL STACK DEVELOPEMENT  <span>&#8728</span> UI DEVELOPEMENT <span>&#8728</span> FRONTEND DEVELOPEMENT  <span>&#8728</span>  BACKEND DEVELOPEMENT <span>&#8728</span>W[...]
    
         </div>                   
 </div>
@@ -499,14 +512,13 @@
 
 
 
-
-
-
 <div class="option">
     <div class="child" id="box1"><b>FRONTEND DEVELOPEMENT</b></div>
     <div class="child" id="box2"><b>FAST & SECURED WEB</b></div>
     <div class="child" id="box3"><b>FULL STACK DEVELOPEMENT</b></div>
-    <div class="child" id="box4"><b>UI DESIGN</b></div>
+    <div class="child" id="box4">
+        <img src="https://via.placeholder.com/150?text=UI+Design" alt="UI Design">
+    </div>
     <div class="child" id="box5"><b>BACKEND DEVELOPEMENT</b></div>
   
     
@@ -535,7 +547,7 @@
   <br>
   <br>
   
-  <div class="slogin"><i>“Build Your Dream Website With Us”</i></div>
+  <div class="slogin"><i>"Build Your Dream Website With Us"</i></div>
    
 
  
